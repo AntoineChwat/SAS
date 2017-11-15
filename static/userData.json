@@ -1,5 +1,13 @@
 {
     "name": "Antoine Chwat",
+    "location": {
+        "id": "106412259396611",
+        "name": "Luleå, Sweden"
+    },
+    "hometown": {
+        "id": "114697118542689",
+        "name": "Orléans, France"
+    },
     "feed": {
         "data": [
             {

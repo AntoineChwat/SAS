@@ -4,8 +4,9 @@ var parsedFbFriends = []
 var parsedTwFriends = []
 var parsedFollowers = []
 var commonFriends = []
+var amount = 0
 
-function read(result){
+function read(res){
 	fs.readFile('static/fbFriends.json', 'utf8', function (err, data) {
 		if (err) throw err;
 		fbFriends = JSON.parse(data);
@@ -75,12 +76,13 @@ function read(result){
 		}
 	});
 	console.log("Done reading")
-	compare(function(commonFriends){
-		result(commonFriends)
+	compare(function(result){
+		console.log("finished")
+		res.send(result.toString())
 	})
 }
 
-function compare(result){
+function compare(returnCompare){
 	var index = 0
 	for(var i = 0; i < parsedFbFriends.length; i++){
 		parsedFbFriends[i] = parsedFbFriends[i].replace(/\s+/g, '');
@@ -95,6 +97,7 @@ function compare(result){
 		for(var j = 0; j < parsedFbFriends.length; j++){
 			if(parsedTwFriends[i] == parsedFbFriends [j]) {
 				console.log("Found one: " + parsedFbFriends[j])
+				amount++
 				commonFriends[index] = parsedFbFriends[j]
 				index++
 			}
@@ -111,13 +114,15 @@ function compare(result){
 					console.log("Found a duplicate: " + parsedFbFriends[j])
 				} else {
 					console.log("Found one: " + parsedFbFriends[j])
-					commonFriends[index] = parsedFbFriends[j]
+					amount++
 					index++
 				}
 			}
 		}
 	}
-	result(commonFriends)
+	console.log("I'm there")
+	console.log(amount)
+	returnCompare(amount)
 }
 
 module.exports.read = read
