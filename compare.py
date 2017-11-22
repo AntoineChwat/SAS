@@ -69,9 +69,7 @@ def main():
 
 	if numberCommon > 0:
 		print("Friends in common: " + str(common))
-		file.write(str(common) + "\n")
 		print("; Number of friends in common: " + str(numberCommon))
-		file.write(str(numberCommon) + "\n")
 	else:
 		print("No friends in common found...")
 	file.write(str(common) + "\n")
@@ -101,9 +99,10 @@ def main():
 
 	if location == fbLocation or location == hometown:
 		print("; Common location found: " + location)
+		file.write(location + "\n")
 	else:
 		print("No common location found...")
-	file.write(location + "\n")
+		file.write("")
 
 def openFile(f):
 	try:
