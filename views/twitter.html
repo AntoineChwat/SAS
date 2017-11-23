@@ -1,0 +1,26 @@
+
+<h3 class="text-info text-center"><span class="fa fa-twitter"></span> Twitter</h3>
+
+
+<div class="well text-center">
+
+<!-- check if the user has this token (is the user authenticated with this social account) -->
+
+<div ng-show="user.twitter.token">
+    <strong>id</strong>: {{ user.twitter.id }}<br>
+    <strong>token</strong>:  {{user.twitter.token}} <br>
+    <strong>name</strong>: {{user.twitter.displayName}} <br>
+    <strong>username</strong>:  {{user.twitter.username}} <br>
+</div>
+
+<a ng-show="user.twitter.token" href="/unlink/twitter" class="btn btn-info">Unlink</a>
+
+<a ng-hide="user.twitter.token" href="/connect/twitter" class="btn btn-info">Connect twitter</a>
+
+<a ng-show="user.twitter.token" ng-click="getTt()" class="btn btn-info">Get Data</a>
+
+</div>
+
+
+
+</div>

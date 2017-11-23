@@ -3,6 +3,8 @@ var EventEmitter = require("events").EventEmitter
 var fs = require('fs')
 var cmd = require('node-cmd')
 var Twit = require ('twit')
+var User = require('./models/user');
+
 var T = new Twit({
 	consumer_key:         'pvQ0WbxP2ueDCe1PfnAZcTHkB',
 	consumer_secret:      'rhMdlyVvbU9M6Ychhd9h2TFxbGC9wFWPl7AoqV2XRGD4cgXPWL',
@@ -16,6 +18,7 @@ var FB = new F.Facebook({
 	accessToken: '502558243460093|0CPd0hf5xNYRPUprwyitdRMUrC4',
 })
 
+
 var fbScope = ['email', 'user_location', 'user_hometown', 'user_posts', 'user_tagged_places', 'user_friends']
 var userFieldSet = 'name, location, hometown, feed, tagged_places'
 
@@ -25,7 +28,7 @@ module.exports = function(app, passport) {
 
 	// show the home page (will also have our login links)
 	app.get('/', function(req, res) {
-		res.render('index.ejs');
+	 res.sendFile(__dirname + '/views/index.html');
 	});
 
 	// PROFILE SECTION =========================
@@ -35,11 +38,19 @@ module.exports = function(app, passport) {
 		});
 	});
 
+
 	// LOGOUT ==============================
 	app.get('/logout', function(req, res) {
 		req.logout();
 		res.redirect('/');
 	});
+
+	// Get current user infos
+    app.get('/api/user', function (req, res) {
+		var user = req.user;
+        res.json(user);
+    });
+
 
 // =============================================================================
 // AUTHENTICATE (FIRST LOGIN) ==================================================
@@ -54,7 +65,7 @@ module.exports = function(app, passport) {
 
 		// process the login form
 		app.post('/login', passport.authenticate('local-login', {
-			successRedirect : '/profile', // redirect to the secure profile section
+			successRedirect : '/', // redirect to the secure profile section
 			failureRedirect : '/login', // redirect back to the signup page if there is an error
 			failureFlash : true // allow flash messages
 		}));
@@ -67,7 +78,7 @@ module.exports = function(app, passport) {
 
 		// process the signup form
 		app.post('/signup', passport.authenticate('local-signup', {
-			successRedirect : '/profile', // redirect to the secure profile section
+			successRedirect : '/', // redirect to the secure profile section
 			failureRedirect : '/signup', // redirect back to the signup page if there is an error
 			failureFlash : true // allow flash messages
 		}));
@@ -80,7 +91,7 @@ module.exports = function(app, passport) {
 		// handle the callback after facebook has authenticated the user
 		app.get('/auth/facebook/callback',
 			passport.authenticate('facebook', {
-				successRedirect : '/profile',
+				successRedirect : '/',
 				failureRedirect : '/'
 			}));
 
@@ -92,7 +103,7 @@ module.exports = function(app, passport) {
 		// handle the callback after twitter has authenticated the user
 		app.get('/auth/twitter/callback',
 			passport.authenticate('twitter', {
-				successRedirect : '/profile',
+				successRedirect : '/',
 				failureRedirect : '/'
 			}));
 
@@ -105,7 +116,7 @@ module.exports = function(app, passport) {
 			res.render('connect-local.ejs', { message: req.flash('loginMessage') });
 		});
 		app.post('/connect/local', passport.authenticate('local-signup', {
-			successRedirect : '/profile', // redirect to the secure profile section
+			successRedirect : '/', // redirect to the secure profile section
 			failureRedirect : '/connect/local', // redirect back to the signup page if there is an error
 			failureFlash : true // allow flash messages
 		}));
@@ -118,7 +129,7 @@ module.exports = function(app, passport) {
 		// handle the callback after facebook has authorized the user
 		app.get('/connect/facebook/callback',
 			passport.authorize('facebook', {
-				successRedirect : '/profile',
+				successRedirect : '/',
 				failureRedirect : '/'
 			}));
 
@@ -130,7 +141,7 @@ module.exports = function(app, passport) {
 		// handle the callback after twitter has authorized the user
 		app.get('/connect/twitter/callback',
 			passport.authorize('twitter', {
-				successRedirect : '/profile',
+				successRedirect : '/',
 				failureRedirect : '/'
 			}));
 
@@ -147,7 +158,7 @@ module.exports = function(app, passport) {
 		user.local.email    = undefined;
 		user.local.password = undefined;
 		user.save(function(err) {
-			res.redirect('/profile');
+			res.redirect('/');
 		});
 	});
 
@@ -156,7 +167,7 @@ module.exports = function(app, passport) {
 		var user            = req.user;
 		user.facebook.token = undefined;
 		user.save(function(err) {
-			res.redirect('/profile');
+			res.redirect('/');
 		});
 	});
 
@@ -165,9 +176,19 @@ module.exports = function(app, passport) {
 		var user           = req.user;
 		user.twitter.token = undefined;
 		user.save(function(err) {
-			res.redirect('/profile');
+			res.redirect('/');
 		});
 	});
+
+
+	//DROP USER DATABASE
+	app.get('/drop/users', function(req, res) {
+	User.remove({}, function(err) {
+		console.log('collection removed')
+	});
+	res.redirect('/');
+
+});
 
 // =============================================================================
 // ACTUAL APP WORK =============================================================
@@ -202,6 +223,7 @@ module.exports = function(app, passport) {
 					handleResponse(response, file, friends, user, res, url, jFriends);
 				});
 			})
+
 	})
 
 	app.get('/data/twitter', isLoggedIn, (req, res) => {
@@ -245,7 +267,7 @@ module.exports = function(app, passport) {
 
 		e1.on('update', function() {
 			options.cursor = -1
-	
+
 			T.get('friends/list', options,  function getData(err, data, response) {
 				jFriends.users.push(data.users)
 				if(data['next_cursor'] > 0){
@@ -277,10 +299,12 @@ module.exports = function(app, passport) {
 		e3.on('update', function (){
 			T.get('users/show', options, function(err, data, response) {
 				fs.writeFile(show, JSON.stringify(data, null, 4), (err) => {if (err) console.log(err)})
-				res.send('done')
+				res.redirect('/')
 			})
 		})
 	})
+
+
 
 	app.get('/check', (req,res) =>
 		T.get('application/rate_limit_status', {resources: ['followers', 'friends']}, function(err, data, response){
@@ -323,9 +347,10 @@ function handleResponse(response, file, friends, user, res, url, jFriends){
 		var jString = JSON.parse(string)
 		string = JSON.stringify(jString, null, 4)
 		fs.writeFile(friends, string, (err) => {if (err) console.log(err)})
-		res.send('done')
+		res.redirect('/')
+
 	}
-} 
+}
 
 // route middleware to ensure user is logged in
 function isLoggedIn(req, res, next) {

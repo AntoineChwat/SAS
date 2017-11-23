@@ -9,6 +9,8 @@
     </style>
 </head>
 <body>
+
+
 <div class="container">
 
     <div class="page-header text-center">
@@ -29,7 +31,7 @@
                         <strong>email</strong>: <%= user.local.email %><br>
                         <strong>password</strong>: <%= user.local.password %>
                     </p>
-                    
+
                     <a href="/unlink/local" class="btn btn-default">Unlink</a>
                 <% } else { %>
                     <a href="/connect/local" class="btn btn-default">Connect Local</a>
