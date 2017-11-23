@@ -10,8 +10,11 @@ angular.module('Ctrl', [])
             });
 
         $scope.dataGet = function(){
-            Data.getTt().then(function(data){
-                Data.getFb();
+            $scope.done = false;
+            Data.getFb().then(function(data){
+                Data.getTt();
+                $scope.done = true;
+
             })
         }
 

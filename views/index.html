@@ -34,12 +34,12 @@
 
     <div class="row text-center">
 
-        <div ng-show="user.facebook.token && user.twitter.token" ng-click="dataGet()" class="btn btn-primary text-center">Get Data</div>
-        <div ng-show="user.facebook.token && user.twitter.token" ng-click="compare()" class="btn btn-primary text-center">COMPARE</div>
+        <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn btn-primary text-center">Get Data</div>
+        <div ng-show="done" ng-click="compare()" class="btn btn-primary text-center">COMPARE</div>
 
     </div>
 
-    <div class="well text-center">{{output}}</div>
+    <div ng-show="output" class="well text-center">{{output}}</div>
 
     </div>
 </body>
