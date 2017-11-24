@@ -1,25 +1,19 @@
+<h3 class="text-primary text-center"><span class="fa fa-facebook"></span> Facebook</h3>
 
+<div class="well text-center">
 
+<div ng-show="user.facebook.token">
+    <strong>id</strong>: {{ user.facebook.id }} <br>
+    <!-- <strong>token</strong>:  {{user.facebook.token}} <br> -->
+    <strong>email</strong>: {{user.facebook.email}} <br>
+    <strong>name</strong>:  {{user.facebook.name}} <br>
+</div>
 
-    <h3 class="text-primary text-center"><span class="fa fa-facebook"></span> Facebook</h3>
+<a ng-show="user.facebook.token" href="/unlink/facebook" class="btn btn-primary">Unlink</a>
 
+<a ng-hide="user.facebook.token" href="/connect/facebook" class="btn btn-primary">Connect Facebook</a>
 
-    <div class="well text-center">
-
-<!-- check if the user has this token (is the user authenticated with this social account) -->
-
-    <div ng-show="user.facebook.token">
-        <strong>id</strong>: {{ user.facebook.id }} <br>
-        <strong>token</strong>:  {{user.facebook.token}} <br>
-        <strong>email</strong>: {{user.facebook.email}} <br>
-        <strong>name</strong>:  {{user.facebook.name}} <br>
-    </div>
-
-    <a ng-show="user.facebook.token" href="/unlink/facebook" class="btn btn-primary">Unlink</a>
-
-    <a ng-hide="user.facebook.token" href="/connect/facebook" class="btn btn-primary">Connect Facebook</a>
-
-    <!-- <a ng-show="user.facebook.token" ng-click="getFb()" class="btn btn-primary">Get Data</a> -->
+<!-- <a ng-show="user.facebook.token" ng-click="getFb()" class="btn btn-primary">Get Data</a> -->
 
 </div>
 </div>

@@ -68,10 +68,10 @@ def main():
 				# 	print('Found duplicate: ' + amigo)
 
 	if numberCommon > 0:
-		print("Friends in common: " + str(common))
-		print("; Number of friends in common: " + str(numberCommon))
+		print("\n Friends in common: " + str(common))
+		print("\n Number of friends in common: " + str(numberCommon))
 	else:
-		print("No friends in common found...")
+		print("\n No friends in common found...")
 	file.write(str(common) + "\n")
 	file.write(str(numberCommon) + "\n")
 
@@ -98,10 +98,10 @@ def main():
 		pass
 
 	if location == fbLocation or location == hometown:
-		print("; Common location found: " + location)
+		print("\n Common location found: " + location)
 		file.write(location + "\n")
 	else:
-		print("No common location found...")
+		print("\n No common location found...")
 		file.write("")
 
 def openFile(f):

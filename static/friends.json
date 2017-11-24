@@ -30,7 +30,7 @@
                 "protected": false,
                 "followers_count": 52229,
                 "friends_count": 61,
-                "listed_count": 46,
+                "listed_count": 48,
                 "created_at": "Wed Aug 09 00:52:35 +0000 2017",
                 "favourites_count": 9,
                 "utc_offset": null,
@@ -75,7 +75,7 @@
                     "quoted_status_id": 932665315858833400,
                     "quoted_status_id_str": "932665315858833408",
                     "retweet_count": 62,
-                    "favorite_count": 291,
+                    "favorite_count": 292,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
@@ -517,9 +517,9 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 105377,
+                "followers_count": 105378,
                 "friends_count": 82,
-                "listed_count": 1069,
+                "listed_count": 1057,
                 "created_at": "Sat Oct 17 11:29:33 +0000 2009",
                 "favourites_count": 42962,
                 "utc_offset": null,
@@ -561,8 +561,8 @@
                     "place": null,
                     "contributors": null,
                     "is_quote_status": false,
-                    "retweet_count": 31,
-                    "favorite_count": 501,
+                    "retweet_count": 32,
+                    "favorite_count": 552,
                     "favorited": false,
                     "retweeted": false,
                     "lang": "en"
@@ -970,7 +970,7 @@
                 "protected": false,
                 "followers_count": 16249,
                 "friends_count": 1093,
-                "listed_count": 321,
+                "listed_count": 322,
                 "created_at": "Sun Jun 07 07:13:56 +0000 2009",
                 "favourites_count": 35040,
                 "utc_offset": 39600,
@@ -1081,7 +1081,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 35,
-                    "favorite_count": 162,
+                    "favorite_count": 170,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
@@ -1141,7 +1141,7 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 37104,
+                "followers_count": 37106,
                 "friends_count": 911,
                 "listed_count": 0,
                 "created_at": "Fri May 20 05:43:36 +0000 2011",
@@ -1870,119 +1870,119 @@
                 "friends_count": 550,
                 "listed_count": 208,
                 "created_at": "Wed May 08 19:26:39 +0000 2013",
-                "favourites_count": 41733,
+                "favourites_count": 41735,
                 "utc_offset": 0,
                 "time_zone": "Dublin",
                 "geo_enabled": false,
                 "verified": false,
-                "statuses_count": 57600,
+                "statuses_count": 57601,
                 "lang": "en",
                 "status": {
-                    "created_at": "Thu Nov 23 23:19:38 +0000 2017",
-                    "id": 933837473817485300,
-                    "id_str": "933837473817485312",
-                    "text": "RT @pixelatedboat: Wow, the latest Penny Arcade strip is a laugh riot https://t.co/o8ZvCSPaIK",
+                    "created_at": "Thu Nov 23 23:26:41 +0000 2017",
+                    "id": 933839247404134400,
+                    "id_str": "933839247404134400",
+                    "text": "RT @Stephen_C_Ward: https://t.co/yJz3pN7fe5",
                     "truncated": false,
                     "entities": {
                         "hashtags": [],
                         "symbols": [],
                         "user_mentions": [
                             {
-                                "screen_name": "pixelatedboat",
-                                "name": "Pixelated “Pixelated Boat” Boat (Pixelated Boat)",
-                                "id": 2999158160,
-                                "id_str": "2999158160",
+                                "screen_name": "Stephen_C_Ward",
+                                "name": "Stephen Ward 💬",
+                                "id": 614939122,
+                                "id_str": "614939122",
                                 "indices": [
                                     3,
-                                    17
+                                    18
                                 ]
                             }
                         ],
                         "urls": [],
                         "media": [
                             {
-                                "id": 933837009386291200,
-                                "id_str": "933837009386291200",
+                                "id": 933616425822052400,
+                                "id_str": "933616425822052352",
                                 "indices": [
-                                    70,
-                                    93
+                                    20,
+                                    43
                                 ],
-                                "media_url": "http://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                "media_url_https": "https://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                "url": "https://t.co/o8ZvCSPaIK",
-                                "display_url": "pic.twitter.com/o8ZvCSPaIK",
-                                "expanded_url": "https://twitter.com/pixelatedboat/status/933837018257178624/photo/1",
+                                "media_url": "http://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                "url": "https://t.co/yJz3pN7fe5",
+                                "display_url": "pic.twitter.com/yJz3pN7fe5",
+                                "expanded_url": "https://twitter.com/Stephen_C_Ward/status/933616438652407808/photo/1",
                                 "type": "photo",
                                 "sizes": {
+                                    "medium": {
+                                        "w": 525,
+                                        "h": 345,
+                                        "resize": "fit"
+                                    },
                                     "thumb": {
                                         "w": 150,
                                         "h": 150,
                                         "resize": "crop"
                                     },
                                     "large": {
-                                        "w": 691,
-                                        "h": 1002,
+                                        "w": 525,
+                                        "h": 345,
                                         "resize": "fit"
                                     },
                                     "small": {
-                                        "w": 469,
-                                        "h": 680,
-                                        "resize": "fit"
-                                    },
-                                    "medium": {
-                                        "w": 691,
-                                        "h": 1002,
+                                        "w": 525,
+                                        "h": 345,
                                         "resize": "fit"
                                     }
                                 },
-                                "source_status_id": 933837018257178600,
-                                "source_status_id_str": "933837018257178624",
-                                "source_user_id": 2999158160,
-                                "source_user_id_str": "2999158160"
+                                "source_status_id": 933616438652407800,
+                                "source_status_id_str": "933616438652407808",
+                                "source_user_id": 614939122,
+                                "source_user_id_str": "614939122"
                             }
                         ]
                     },
                     "extended_entities": {
                         "media": [
                             {
-                                "id": 933837009386291200,
-                                "id_str": "933837009386291200",
+                                "id": 933616425822052400,
+                                "id_str": "933616425822052352",
                                 "indices": [
-                                    70,
-                                    93
+                                    20,
+                                    43
                                 ],
-                                "media_url": "http://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                "media_url_https": "https://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                "url": "https://t.co/o8ZvCSPaIK",
-                                "display_url": "pic.twitter.com/o8ZvCSPaIK",
-                                "expanded_url": "https://twitter.com/pixelatedboat/status/933837018257178624/photo/1",
+                                "media_url": "http://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                "url": "https://t.co/yJz3pN7fe5",
+                                "display_url": "pic.twitter.com/yJz3pN7fe5",
+                                "expanded_url": "https://twitter.com/Stephen_C_Ward/status/933616438652407808/photo/1",
                                 "type": "photo",
                                 "sizes": {
+                                    "medium": {
+                                        "w": 525,
+                                        "h": 345,
+                                        "resize": "fit"
+                                    },
                                     "thumb": {
                                         "w": 150,
                                         "h": 150,
                                         "resize": "crop"
                                     },
                                     "large": {
-                                        "w": 691,
-                                        "h": 1002,
+                                        "w": 525,
+                                        "h": 345,
                                         "resize": "fit"
                                     },
                                     "small": {
-                                        "w": 469,
-                                        "h": 680,
-                                        "resize": "fit"
-                                    },
-                                    "medium": {
-                                        "w": 691,
-                                        "h": 1002,
+                                        "w": 525,
+                                        "h": 345,
                                         "resize": "fit"
                                     }
                                 },
-                                "source_status_id": 933837018257178600,
-                                "source_status_id_str": "933837018257178624",
-                                "source_user_id": 2999158160,
-                                "source_user_id_str": "2999158160"
+                                "source_status_id": 933616438652407800,
+                                "source_status_id_str": "933616438652407808",
+                                "source_user_id": 614939122,
+                                "source_user_id_str": "614939122"
                             }
                         ]
                     },
@@ -1997,10 +1997,10 @@
                     "place": null,
                     "contributors": null,
                     "retweeted_status": {
-                        "created_at": "Thu Nov 23 23:17:49 +0000 2017",
-                        "id": 933837018257178600,
-                        "id_str": "933837018257178624",
-                        "text": "Wow, the latest Penny Arcade strip is a laugh riot https://t.co/o8ZvCSPaIK",
+                        "created_at": "Thu Nov 23 08:41:19 +0000 2017",
+                        "id": 933616438652407800,
+                        "id_str": "933616438652407808",
+                        "text": "https://t.co/yJz3pN7fe5",
                         "truncated": false,
                         "entities": {
                             "hashtags": [],
@@ -2009,37 +2009,37 @@
                             "urls": [],
                             "media": [
                                 {
-                                    "id": 933837009386291200,
-                                    "id_str": "933837009386291200",
+                                    "id": 933616425822052400,
+                                    "id_str": "933616425822052352",
                                     "indices": [
-                                        51,
-                                        74
+                                        0,
+                                        23
                                     ],
-                                    "media_url": "http://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                    "media_url_https": "https://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                    "url": "https://t.co/o8ZvCSPaIK",
-                                    "display_url": "pic.twitter.com/o8ZvCSPaIK",
-                                    "expanded_url": "https://twitter.com/pixelatedboat/status/933837018257178624/photo/1",
+                                    "media_url": "http://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                    "url": "https://t.co/yJz3pN7fe5",
+                                    "display_url": "pic.twitter.com/yJz3pN7fe5",
+                                    "expanded_url": "https://twitter.com/Stephen_C_Ward/status/933616438652407808/photo/1",
                                     "type": "photo",
                                     "sizes": {
+                                        "medium": {
+                                            "w": 525,
+                                            "h": 345,
+                                            "resize": "fit"
+                                        },
                                         "thumb": {
                                             "w": 150,
                                             "h": 150,
                                             "resize": "crop"
                                         },
                                         "large": {
-                                            "w": 691,
-                                            "h": 1002,
+                                            "w": 525,
+                                            "h": 345,
                                             "resize": "fit"
                                         },
                                         "small": {
-                                            "w": 469,
-                                            "h": 680,
-                                            "resize": "fit"
-                                        },
-                                        "medium": {
-                                            "w": 691,
-                                            "h": 1002,
+                                            "w": 525,
+                                            "h": 345,
                                             "resize": "fit"
                                         }
                                     }
@@ -2049,44 +2049,44 @@
                         "extended_entities": {
                             "media": [
                                 {
-                                    "id": 933837009386291200,
-                                    "id_str": "933837009386291200",
+                                    "id": 933616425822052400,
+                                    "id_str": "933616425822052352",
                                     "indices": [
-                                        51,
-                                        74
+                                        0,
+                                        23
                                     ],
-                                    "media_url": "http://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                    "media_url_https": "https://pbs.twimg.com/media/DPWnz_aVQAAFkSx.jpg",
-                                    "url": "https://t.co/o8ZvCSPaIK",
-                                    "display_url": "pic.twitter.com/o8ZvCSPaIK",
-                                    "expanded_url": "https://twitter.com/pixelatedboat/status/933837018257178624/photo/1",
+                                    "media_url": "http://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPTfMVmX4AAsIEm.jpg",
+                                    "url": "https://t.co/yJz3pN7fe5",
+                                    "display_url": "pic.twitter.com/yJz3pN7fe5",
+                                    "expanded_url": "https://twitter.com/Stephen_C_Ward/status/933616438652407808/photo/1",
                                     "type": "photo",
                                     "sizes": {
+                                        "medium": {
+                                            "w": 525,
+                                            "h": 345,
+                                            "resize": "fit"
+                                        },
                                         "thumb": {
                                             "w": 150,
                                             "h": 150,
                                             "resize": "crop"
                                         },
                                         "large": {
-                                            "w": 691,
-                                            "h": 1002,
+                                            "w": 525,
+                                            "h": 345,
                                             "resize": "fit"
                                         },
                                         "small": {
-                                            "w": 469,
-                                            "h": 680,
-                                            "resize": "fit"
-                                        },
-                                        "medium": {
-                                            "w": 691,
-                                            "h": 1002,
+                                            "w": 525,
+                                            "h": 345,
                                             "resize": "fit"
                                         }
                                     }
                                 }
                             ]
                         },
-                        "source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+                        "source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
                         "in_reply_to_status_id": null,
                         "in_reply_to_status_id_str": null,
                         "in_reply_to_user_id": null,
@@ -2097,20 +2097,20 @@
                         "place": null,
                         "contributors": null,
                         "is_quote_status": false,
-                        "retweet_count": 52,
-                        "favorite_count": 263,
+                        "retweet_count": 30,
+                        "favorite_count": 54,
                         "favorited": false,
                         "retweeted": false,
                         "possibly_sensitive": false,
-                        "lang": "en"
+                        "lang": "und"
                     },
                     "is_quote_status": false,
-                    "retweet_count": 52,
+                    "retweet_count": 30,
                     "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
-                    "lang": "en"
+                    "lang": "und"
                 },
                 "contributors_enabled": false,
                 "is_translator": false,
@@ -2616,18 +2616,18 @@
                 "friends_count": 896,
                 "listed_count": 126,
                 "created_at": "Thu Apr 09 02:29:38 +0000 2009",
-                "favourites_count": 45261,
+                "favourites_count": 45264,
                 "utc_offset": -18000,
                 "time_zone": "Eastern Time (US & Canada)",
                 "geo_enabled": false,
                 "verified": false,
-                "statuses_count": 28586,
+                "statuses_count": 28587,
                 "lang": "en",
                 "status": {
-                    "created_at": "Thu Nov 23 23:12:29 +0000 2017",
-                    "id": 933835675270598700,
-                    "id_str": "933835675270598656",
-                    "text": "I forgot to buy milk yesterday. WELP, I'll cook tomorrow then!",
+                    "created_at": "Thu Nov 23 23:55:01 +0000 2017",
+                    "id": 933846380170313700,
+                    "id_str": "933846380170313734",
+                    "text": "I'm sorry I didn't use the Shield Rod correctly.",
                     "truncated": false,
                     "entities": {
                         "hashtags": [],
@@ -2647,7 +2647,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 0,
-                    "favorite_count": 4,
+                    "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
                     "lang": "en"
@@ -2711,18 +2711,18 @@
                 "friends_count": 896,
                 "listed_count": 126,
                 "created_at": "Thu Apr 09 02:29:38 +0000 2009",
-                "favourites_count": 45261,
+                "favourites_count": 45264,
                 "utc_offset": -18000,
                 "time_zone": "Eastern Time (US & Canada)",
                 "geo_enabled": false,
                 "verified": false,
-                "statuses_count": 28586,
+                "statuses_count": 28587,
                 "lang": "en",
                 "status": {
-                    "created_at": "Thu Nov 23 23:12:29 +0000 2017",
-                    "id": 933835675270598700,
-                    "id_str": "933835675270598656",
-                    "text": "I forgot to buy milk yesterday. WELP, I'll cook tomorrow then!",
+                    "created_at": "Thu Nov 23 23:55:01 +0000 2017",
+                    "id": 933846380170313700,
+                    "id_str": "933846380170313734",
+                    "text": "I'm sorry I didn't use the Shield Rod correctly.",
                     "truncated": false,
                     "entities": {
                         "hashtags": [],
@@ -2742,7 +2742,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 0,
-                    "favorite_count": 4,
+                    "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
                     "lang": "en"
@@ -3140,7 +3140,7 @@
                         "contributors": null,
                         "is_quote_status": false,
                         "retweet_count": 5104,
-                        "favorite_count": 10258,
+                        "favorite_count": 10259,
                         "favorited": false,
                         "retweeted": false,
                         "possibly_sensitive": false,
@@ -3208,9 +3208,9 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 220640,
+                "followers_count": 220641,
                 "friends_count": 997,
-                "listed_count": 1950,
+                "listed_count": 1956,
                 "created_at": "Sat Oct 16 13:55:56 +0000 2010",
                 "favourites_count": 19239,
                 "utc_offset": 3600,
@@ -3329,7 +3329,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 15,
-                    "favorite_count": 120,
+                    "favorite_count": 122,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
@@ -3389,9 +3389,9 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 73191,
+                "followers_count": 73192,
                 "friends_count": 1,
-                "listed_count": 402,
+                "listed_count": 403,
                 "created_at": "Mon Dec 07 00:10:06 +0000 2009",
                 "favourites_count": 10091,
                 "utc_offset": -28800,
@@ -3502,7 +3502,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 25,
-                    "favorite_count": 176,
+                    "favorite_count": 186,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
@@ -3566,7 +3566,7 @@
                 "friends_count": 417,
                 "listed_count": 232,
                 "created_at": "Fri Mar 12 19:17:27 +0000 2010",
-                "favourites_count": 27181,
+                "favourites_count": 27182,
                 "utc_offset": -28800,
                 "time_zone": "Pacific Time (US & Canada)",
                 "geo_enabled": false,
@@ -3706,11 +3706,11 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 905237,
+                "followers_count": 905241,
                 "friends_count": 513,
-                "listed_count": 827,
+                "listed_count": 835,
                 "created_at": "Sun Apr 01 20:13:22 +0000 2012",
-                "favourites_count": 3458,
+                "favourites_count": 3459,
                 "utc_offset": 7200,
                 "time_zone": "Athens",
                 "geo_enabled": true,
@@ -3751,8 +3751,8 @@
                     "place": null,
                     "contributors": null,
                     "is_quote_status": false,
-                    "retweet_count": 13,
-                    "favorite_count": 165,
+                    "retweet_count": 15,
+                    "favorite_count": 261,
                     "favorited": false,
                     "retweeted": false,
                     "lang": "fr"

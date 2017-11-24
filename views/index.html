@@ -2,7 +2,6 @@
 <html ng-app="loginApp">
 
 <head>
-
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
 
     <script src="controllers/main.js"></script> <!-- load up our controller -->
@@ -10,19 +9,16 @@
     <script src="services/data.js"></script>
 	<script src="core.js"></script> <!-- load our main application -->
 
-
-    <title>Node Authentication</title>
+    <title>No Reidentification</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="styles.css">
-
 </head>
 
 <body ng-controller="appController">
     <div class="container">
-
-        <div class="well text-center">
-            <h1>Are your social network accounts linked ?</h1>
+        <div class="jumbotron text-center">
+            <h1>Can you be identified ?</h1>
             <!-- <a ng-hide="user" href="/login" class="btn btn-default">Connect Local</a>
             <a ng-show="user" href="/logout" class="btn btn-default">Disconnect</a> -->
         </div>
@@ -35,14 +31,12 @@
     <div class="row text-center">
 
         <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn btn-primary text-center">Get Data</div>
-        <div ng-show="done" ng-click="compare()" class="btn btn-primary text-center">COMPARE</div>
+        <div ng-show="done && !output" ng-click="compare()" class="btn btn-primary text-center">COMPARE</div>
+        <p class="text-center" ng-show="loading">
+            <span class="fa fa-spinner fa-spin fa-3x"></span>
+        </p>
 
-    </div>
-
-    <div ng-show="output" class="well text-center">{{output}}</div>
-
-    </div>
-</body>
+        <pre ng-show="output">{{output}}</pre>
 
 
 </html>
