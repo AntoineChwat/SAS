@@ -18,12 +18,10 @@
 </head>
 
 <body ng-controller="appController">
-    <div class="container">
-        <div class="jumbotron text-center">
-            <h1>Can you be identified ?</h1>
+    <div class="container" id=app>
+            <h1>Could you be identified ?</h1>
             <!-- <a ng-hide="user" href="/login" class="btn btn-default">Connect Local</a>
             <a ng-show="user" href="/logout" class="btn btn-default">Disconnect</a> -->
-        </div>
 
     <div class="row">
         <div class="col-sm-6" ng-include="'facebook.html'"></div>
@@ -32,16 +30,16 @@
 
     <div class="row text-center">
 
-        <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn btn-default text-center">Get Data</div>
-        <button ng-show="done" ng-click="compare()" class="btn btn-default text-center" data-toggle="collapse" data-target="#output">
+        <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn-lg btn-default text-center">Get Data</div>
+        <!-- <button ng-show="done" ng-init="compare()" class="btn-lg btn-default text-center" data-toggle="collapse" data-target="#output">
             COMPARE
-        </button>
+        </button> -->
 
-        <p class="text-center" ng-show="loading">
+        <p class="text-center" id=load ng-show="loading">
             <span class="fa fa-spinner fa-spin fa-3x"></span>
         </p>
 
-        <pre id="output" class="collapse">{{output}}</pre>
+        <pre id="output" ng-show="done" ng-init="compare()" >{{output}}</pre>
 
 
 </html>

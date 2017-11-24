@@ -1,2 +1,3 @@
-['Thibaut Pinsard']
-1
+['Thibaut Pinsard', 'Julie Figueras']
+2
+Lyon

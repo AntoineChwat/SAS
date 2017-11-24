@@ -209,8 +209,8 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 2718,
-                "friends_count": 4975,
+                "followers_count": 2719,
+                "friends_count": 4977,
                 "listed_count": 91,
                 "created_at": "Sat Aug 29 00:10:45 +0000 2015",
                 "favourites_count": 36920,
@@ -364,22 +364,22 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 9338,
-                "friends_count": 10418,
-                "listed_count": 200,
+                "followers_count": 9332,
+                "friends_count": 10415,
+                "listed_count": 197,
                 "created_at": "Fri Jan 16 11:20:08 +0000 2015",
                 "favourites_count": 28790,
                 "utc_offset": 0,
                 "time_zone": "Dublin",
                 "geo_enabled": false,
                 "verified": false,
-                "statuses_count": 49928,
+                "statuses_count": 49931,
                 "lang": "en",
                 "status": {
-                    "created_at": "Thu Nov 23 22:05:01 +0000 2017",
-                    "id": 933818695926894600,
-                    "id_str": "933818695926894592",
-                    "text": "The best game story I ever work the whole entire day through, pre-Christmas?",
+                    "created_at": "Fri Nov 24 06:05:01 +0000 2017",
+                    "id": 933939493203259400,
+                    "id_str": "933939493203259397",
+                    "text": "I spat this mouthful of whiskey back in the day contributes $10,000 to Wasteland 2 Kickstarter:",
                     "truncated": false,
                     "entities": {
                         "hashtags": [],
@@ -458,155 +458,55 @@
                 },
                 "protected": false,
                 "followers_count": 2843,
-                "friends_count": 1699,
+                "friends_count": 1700,
                 "listed_count": 155,
                 "created_at": "Mon Jul 06 11:57:27 +0000 2009",
-                "favourites_count": 3670,
+                "favourites_count": 3671,
                 "utc_offset": 3600,
                 "time_zone": "Paris",
                 "geo_enabled": true,
                 "verified": false,
-                "statuses_count": 25651,
+                "statuses_count": 25657,
                 "lang": "fr",
                 "status": {
-                    "created_at": "Thu Nov 23 21:00:10 +0000 2017",
-                    "id": 933802374946271200,
-                    "id_str": "933802374946271234",
-                    "text": "@FlowJag @letransbordeur @lia_404 @PopCultWeapon @MrFDA69 @mrpolo_1 @Nico_RS_ @Thomas_LyonEst @Phys_geek @cyber746… https://t.co/G75uME3ZIb",
-                    "truncated": true,
+                    "created_at": "Fri Nov 24 08:41:55 +0000 2017",
+                    "id": 933978977852674000,
+                    "id_str": "933978977852674048",
+                    "text": "@astropierre ?",
+                    "truncated": false,
                     "entities": {
                         "hashtags": [],
                         "symbols": [],
                         "user_mentions": [
                             {
-                                "screen_name": "FlowJag",
-                                "name": "Lil' Exhausted Tcell",
-                                "id": 2898490828,
-                                "id_str": "2898490828",
+                                "screen_name": "astropierre",
+                                "name": "astropierre",
+                                "id": 995791838,
+                                "id_str": "995791838",
                                 "indices": [
                                     0,
-                                    8
-                                ]
-                            },
-                            {
-                                "screen_name": "letransbordeur",
-                                "name": "Le Transbordeur",
-                                "id": 180823369,
-                                "id_str": "180823369",
-                                "indices": [
-                                    9,
-                                    24
-                                ]
-                            },
-                            {
-                                "screen_name": "lia_404",
-                                "name": "Lia",
-                                "id": 389974094,
-                                "id_str": "389974094",
-                                "indices": [
-                                    25,
-                                    33
-                                ]
-                            },
-                            {
-                                "screen_name": "PopCultWeapon",
-                                "name": "Karl, le Transsexuel Moustachu",
-                                "id": 3001443929,
-                                "id_str": "3001443929",
-                                "indices": [
-                                    34,
-                                    48
-                                ]
-                            },
-                            {
-                                "screen_name": "MrFDA69",
-                                "name": "MrFDA",
-                                "id": 272518079,
-                                "id_str": "272518079",
-                                "indices": [
-                                    49,
-                                    57
-                                ]
-                            },
-                            {
-                                "screen_name": "mrpolo_1",
-                                "name": "Wintertime Happiness",
-                                "id": 383411950,
-                                "id_str": "383411950",
-                                "indices": [
-                                    58,
-                                    67
-                                ]
-                            },
-                            {
-                                "screen_name": "Nico_RS_",
-                                "name": "Nicolas RS",
-                                "id": 904755366,
-                                "id_str": "904755366",
-                                "indices": [
-                                    68,
-                                    77
-                                ]
-                            },
-                            {
-                                "screen_name": "Thomas_LyonEst",
-                                "name": "Thomas 💊",
-                                "id": 1531446271,
-                                "id_str": "1531446271",
-                                "indices": [
-                                    78,
-                                    93
-                                ]
-                            },
-                            {
-                                "screen_name": "Phys_geek",
-                                "name": "φ's geek",
-                                "id": 469479552,
-                                "id_str": "469479552",
-                                "indices": [
-                                    94,
-                                    104
-                                ]
-                            },
-                            {
-                                "screen_name": "cyber746",
-                                "name": "Yannick",
-                                "id": 369074941,
-                                "id_str": "369074941",
-                                "indices": [
-                                    105,
-                                    114
+                                    12
                                 ]
                             }
                         ],
-                        "urls": [
-                            {
-                                "url": "https://t.co/G75uME3ZIb",
-                                "expanded_url": "https://twitter.com/i/web/status/933802374946271234",
-                                "display_url": "twitter.com/i/web/status/9…",
-                                "indices": [
-                                    116,
-                                    139
-                                ]
-                            }
-                        ]
+                        "urls": []
                     },
                     "source": "<a href=\"https://about.twitter.com/products/tweetdeck\" rel=\"nofollow\">TweetDeck</a>",
-                    "in_reply_to_status_id": 933792722615455700,
-                    "in_reply_to_status_id_str": "933792722615455744",
-                    "in_reply_to_user_id": 2898490828,
-                    "in_reply_to_user_id_str": "2898490828",
-                    "in_reply_to_screen_name": "FlowJag",
+                    "in_reply_to_status_id": 933978923347607600,
+                    "in_reply_to_status_id_str": "933978923347607552",
+                    "in_reply_to_user_id": 54185316,
+                    "in_reply_to_user_id_str": "54185316",
+                    "in_reply_to_screen_name": "MrPourquoi",
                     "geo": null,
                     "coordinates": null,
                     "place": null,
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 0,
-                    "favorite_count": 1,
+                    "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
-                    "lang": "fr"
+                    "lang": "und"
                 },
                 "contributors_enabled": false,
                 "is_translator": false,

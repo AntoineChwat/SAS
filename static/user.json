@@ -3,8 +3,19 @@
     "id_str": "1160670528",
     "name": "Hugo Gerva",
     "screen_name": "Hugogerva",
-    "location": "Là.",
-    "profile_location": null,
+    "location": "Lyon, France",
+    "profile_location": {
+        "id": "179b8df9e368044d",
+        "url": "https://api.twitter.com/1.1/geo/id/179b8df9e368044d.json",
+        "place_type": "unknown",
+        "name": "Lyon, France",
+        "full_name": "Lyon, France",
+        "country_code": "",
+        "country": "",
+        "contained_within": [],
+        "bounding_box": null,
+        "attributes": {}
+    },
     "description": "Moi.",
     "url": null,
     "entities": {

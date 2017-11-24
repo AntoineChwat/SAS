@@ -165,7 +165,7 @@ module.exports = function(app, passport) {
 	// facebook -------------------------------
 	app.get('/unlink/facebook', isLoggedIn, function(req, res) {
 		var user            = req.user;
-		user.facebook.token = undefined;
+		user.facebook = undefined;
 		user.save(function(err) {
 			res.redirect('/');
 		});
@@ -174,7 +174,7 @@ module.exports = function(app, passport) {
 	// twitter --------------------------------
 	app.get('/unlink/twitter', isLoggedIn, function(req, res) {
 		var user           = req.user;
-		user.twitter.token = undefined;
+		user.twitter = undefined;
 		user.save(function(err) {
 			res.redirect('/');
 		});
@@ -249,7 +249,7 @@ module.exports = function(app, passport) {
 
 		var options = {
 			screen_name: user.twitter.username,
-			count: 20,
+			count: 200,
 			cursor: -1
 		}
 

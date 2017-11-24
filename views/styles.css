@@ -1,12 +1,39 @@
+
+html{
+
+}
+
+h1{
+    font-size: 4em;
+    text-align: center;
+    color: #ECECEC;
+    padding-bottom: 7%;
+}
+
+
 body{
     padding-top:80px;
     word-wrap:break-word;
-
+    background-color: #252525;
+    text-align: center;
+      overflow-y:scroll;
 }
+
+#app {
+    display: inline-block;
+        width: 80%;
+}
+
+#load{
+    color:#ECECEC;
+}
+
 
 #output{
     background-color:#F1F1F1;
     color: #101010;
    border-radius: 8px;
     white-space: pre-line;
+    width:80%;
+    margin: 0 auto;
 }

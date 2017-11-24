@@ -13,9 +13,11 @@ angular.module('Ctrl', [])
             $scope.loading = true;
             $scope.done = false;
             Data.getFb().then(function(data){
-                Data.getTt();
-                $scope.loading = false;
-                $scope.done = true;
+                Data.getTt().then (function(data){
+					$scope.loading = false;
+	                $scope.done = true;
+				});
+
 
             })
         }
