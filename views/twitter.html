@@ -1,19 +1,22 @@
-<h3 class="text-info text-center"><span class="fa fa-twitter"></span> Twitter</h3>
+<div class="panel panel-info text-center">
+  <div class="panel-heading">
+      <h3 ><span class="fa fa-twitter"></span> Twitter</h3>
+  </div>
+  <div class="panel-body">
+      <div ng-show="user.twitter.token">
+          <strong>id</strong>: {{ user.twitter.id }} <br>
+          <!-- <strong>token</strong>:  {{user.twitter.token}} <br> -->
+          <strong>username</strong>: {{user.twitter.username}} <br>
+          <strong>name</strong>:  {{user.twitter.displayName}} <br>
+      </div>
 
-<div class="well text-center">
+      <a ng-show="user.twitter.token" href="/unlink/twitter" class="btn btn-info">Unlink</a>
 
-<div ng-show="user.twitter.token">
-    <strong>id</strong>: {{ user.twitter.id }}<br>
-    <!-- <strong>token</strong>:  {{user.twitter.token}} <br> -->
-    <strong>name</strong>: {{user.twitter.displayName}} <br>
-    <strong>username</strong>:  {{user.twitter.username}} <br>
-</div>
+      <a ng-hide="user.twitter.token" href="/connect/twitter" class="btn btn-info">Connect Twitter</a>
 
-<a ng-show="user.twitter.token" href="/unlink/twitter" class="btn btn-info">Unlink</a>
+      <!-- <a ng-show="user.twitter.token" ng-click="getFb()" class="btn btn-primary">Get Data</a> -->
 
-<a ng-hide="user.twitter.token" href="/connect/twitter" class="btn btn-info">Connect Twitter</a>
 
-<!-- <a ng-show="user.twitter.token" ng-click="getTt()" class="btn btn-info">Get Data</a> -->
 
-</div>
+  </div>
 </div>

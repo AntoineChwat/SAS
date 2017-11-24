@@ -3,3 +3,10 @@ body{
     word-wrap:break-word;
 
 }
+
+#output{
+    background-color:#F1F1F1;
+    color: #101010;
+   border-radius: 8px;
+    white-space: pre-line;
+}

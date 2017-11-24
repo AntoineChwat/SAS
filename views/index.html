@@ -12,6 +12,8 @@
     <title>No Reidentification</title>
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -24,19 +26,22 @@
         </div>
 
     <div class="row">
-        <div class="col-sm-5  " ng-include="'facebook.html'"></div>
-        <div class="col-sm-5 col-sm-offset-2" ng-include="'twitter.html'"></div>
+        <div class="col-sm-6" ng-include="'facebook.html'"></div>
+        <div class="col-sm-6" ng-include="'twitter.html'"></div>
     </div>
 
     <div class="row text-center">
 
-        <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn btn-primary text-center">Get Data</div>
-        <div ng-show="done && !output" ng-click="compare()" class="btn btn-primary text-center">COMPARE</div>
+        <div ng-show="user.facebook.token && user.twitter.token && !done" ng-click="dataGet()" class="btn btn-default text-center">Get Data</div>
+        <button ng-show="done" ng-click="compare()" class="btn btn-default text-center" data-toggle="collapse" data-target="#output">
+            COMPARE
+        </button>
+
         <p class="text-center" ng-show="loading">
             <span class="fa fa-spinner fa-spin fa-3x"></span>
         </p>
 
-        <pre ng-show="output">{{output}}</pre>
+        <pre id="output" class="collapse">{{output}}</pre>
 
 
 </html>
