@@ -28,7 +28,7 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 52237,
+                "followers_count": 52236,
                 "friends_count": 61,
                 "listed_count": 45,
                 "created_at": "Wed Aug 09 00:52:35 +0000 2017",
@@ -478,15 +478,15 @@
                         "place": null,
                         "contributors": null,
                         "is_quote_status": false,
-                        "retweet_count": 431,
-                        "favorite_count": 716,
+                        "retweet_count": 432,
+                        "favorite_count": 718,
                         "favorited": false,
                         "retweeted": false,
                         "possibly_sensitive": false,
                         "lang": "und"
                     },
                     "is_quote_status": false,
-                    "retweet_count": 431,
+                    "retweet_count": 432,
                     "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
@@ -810,14 +810,14 @@
                         "place": null,
                         "contributors": null,
                         "is_quote_status": false,
-                        "retweet_count": 101,
-                        "favorite_count": 434,
+                        "retweet_count": 102,
+                        "favorite_count": 437,
                         "favorited": false,
                         "retweeted": false,
                         "lang": "en"
                     },
                     "is_quote_status": false,
-                    "retweet_count": 101,
+                    "retweet_count": 102,
                     "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
@@ -1990,7 +1990,7 @@
                 "protected": false,
                 "followers_count": 26828,
                 "friends_count": 457,
-                "listed_count": 775,
+                "listed_count": 776,
                 "created_at": "Mon May 31 01:51:18 +0000 2010",
                 "favourites_count": 4972,
                 "utc_offset": -25200,
@@ -2358,55 +2358,402 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 10466,
+                "followers_count": 10468,
                 "friends_count": 550,
                 "listed_count": 211,
                 "created_at": "Wed May 08 19:26:39 +0000 2013",
-                "favourites_count": 41755,
+                "favourites_count": 41756,
                 "utc_offset": 0,
                 "time_zone": "Dublin",
                 "geo_enabled": false,
                 "verified": false,
-                "statuses_count": 57610,
+                "statuses_count": 57611,
                 "lang": "en",
                 "status": {
-                    "created_at": "Fri Nov 24 10:38:34 +0000 2017",
-                    "id": 934008332179923000,
-                    "id_str": "934008332179922944",
-                    "text": "@Nojimbo I'm familiar with him, but am ashamed to say have never taken the time tomorrow introduce myself to his work.",
+                    "created_at": "Fri Nov 24 10:48:52 +0000 2017",
+                    "id": 934010925438431200,
+                    "id_str": "934010925438431234",
+                    "text": "RT @ab_tully: W. Heath Robinson’s illustrations of A Midsummer Night’s Dream by William Shakespeare (1914). https://t.co/eclzzSdfOG",
                     "truncated": false,
                     "entities": {
                         "hashtags": [],
                         "symbols": [],
                         "user_mentions": [
                             {
-                                "screen_name": "Nojimbo",
-                                "name": "Nojimbo",
-                                "id": 25828179,
-                                "id_str": "25828179",
+                                "screen_name": "ab_tully",
+                                "name": "AnnaBelle",
+                                "id": 845303864253403100,
+                                "id_str": "845303864253403136",
                                 "indices": [
-                                    0,
-                                    8
+                                    3,
+                                    12
                                 ]
                             }
                         ],
-                        "urls": []
+                        "urls": [],
+                        "media": [
+                            {
+                                "id": 933462753506885600,
+                                "id_str": "933462753506885632",
+                                "indices": [
+                                    108,
+                                    131
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                "url": "https://t.co/eclzzSdfOG",
+                                "display_url": "pic.twitter.com/eclzzSdfOG",
+                                "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                "type": "photo",
+                                "sizes": {
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 640,
+                                        "h": 877,
+                                        "resize": "fit"
+                                    },
+                                    "large": {
+                                        "w": 640,
+                                        "h": 877,
+                                        "resize": "fit"
+                                    },
+                                    "small": {
+                                        "w": 496,
+                                        "h": 680,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 933462800961241100,
+                                "source_status_id_str": "933462800961241088",
+                                "source_user_id": 845303864253403100,
+                                "source_user_id_str": "845303864253403136"
+                            }
+                        ]
+                    },
+                    "extended_entities": {
+                        "media": [
+                            {
+                                "id": 933462753506885600,
+                                "id_str": "933462753506885632",
+                                "indices": [
+                                    108,
+                                    131
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                "url": "https://t.co/eclzzSdfOG",
+                                "display_url": "pic.twitter.com/eclzzSdfOG",
+                                "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                "type": "photo",
+                                "sizes": {
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 640,
+                                        "h": 877,
+                                        "resize": "fit"
+                                    },
+                                    "large": {
+                                        "w": 640,
+                                        "h": 877,
+                                        "resize": "fit"
+                                    },
+                                    "small": {
+                                        "w": 496,
+                                        "h": 680,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 933462800961241100,
+                                "source_status_id_str": "933462800961241088",
+                                "source_user_id": 845303864253403100,
+                                "source_user_id_str": "845303864253403136"
+                            },
+                            {
+                                "id": 933462753502793700,
+                                "id_str": "933462753502793728",
+                                "indices": [
+                                    108,
+                                    131
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/DPRTbbmXkAAwCyI.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPRTbbmXkAAwCyI.jpg",
+                                "url": "https://t.co/eclzzSdfOG",
+                                "display_url": "pic.twitter.com/eclzzSdfOG",
+                                "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                "type": "photo",
+                                "sizes": {
+                                    "large": {
+                                        "w": 640,
+                                        "h": 861,
+                                        "resize": "fit"
+                                    },
+                                    "small": {
+                                        "w": 505,
+                                        "h": 680,
+                                        "resize": "fit"
+                                    },
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 640,
+                                        "h": 861,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 933462800961241100,
+                                "source_status_id_str": "933462800961241088",
+                                "source_user_id": 845303864253403100,
+                                "source_user_id_str": "845303864253403136"
+                            },
+                            {
+                                "id": 933462753507004400,
+                                "id_str": "933462753507004418",
+                                "indices": [
+                                    108,
+                                    131
+                                ],
+                                "media_url": "http://pbs.twimg.com/media/DPRTbbnX0AIqAJV.jpg",
+                                "media_url_https": "https://pbs.twimg.com/media/DPRTbbnX0AIqAJV.jpg",
+                                "url": "https://t.co/eclzzSdfOG",
+                                "display_url": "pic.twitter.com/eclzzSdfOG",
+                                "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                "type": "photo",
+                                "sizes": {
+                                    "small": {
+                                        "w": 480,
+                                        "h": 680,
+                                        "resize": "fit"
+                                    },
+                                    "thumb": {
+                                        "w": 150,
+                                        "h": 150,
+                                        "resize": "crop"
+                                    },
+                                    "medium": {
+                                        "w": 640,
+                                        "h": 907,
+                                        "resize": "fit"
+                                    },
+                                    "large": {
+                                        "w": 640,
+                                        "h": 907,
+                                        "resize": "fit"
+                                    }
+                                },
+                                "source_status_id": 933462800961241100,
+                                "source_status_id_str": "933462800961241088",
+                                "source_user_id": 845303864253403100,
+                                "source_user_id_str": "845303864253403136"
+                            }
+                        ]
                     },
                     "source": "<a href=\"https://mobile.twitter.com\" rel=\"nofollow\">Twitter Lite</a>",
-                    "in_reply_to_status_id": 934007089730646000,
-                    "in_reply_to_status_id_str": "934007089730646016",
-                    "in_reply_to_user_id": 25828179,
-                    "in_reply_to_user_id_str": "25828179",
-                    "in_reply_to_screen_name": "Nojimbo",
+                    "in_reply_to_status_id": null,
+                    "in_reply_to_status_id_str": null,
+                    "in_reply_to_user_id": null,
+                    "in_reply_to_user_id_str": null,
+                    "in_reply_to_screen_name": null,
                     "geo": null,
                     "coordinates": null,
                     "place": null,
                     "contributors": null,
+                    "retweeted_status": {
+                        "created_at": "Wed Nov 22 22:30:49 +0000 2017",
+                        "id": 933462800961241100,
+                        "id_str": "933462800961241088",
+                        "text": "W. Heath Robinson’s illustrations of A Midsummer Night’s Dream by William Shakespeare (1914). https://t.co/eclzzSdfOG",
+                        "truncated": false,
+                        "entities": {
+                            "hashtags": [],
+                            "symbols": [],
+                            "user_mentions": [],
+                            "urls": [],
+                            "media": [
+                                {
+                                    "id": 933462753506885600,
+                                    "id_str": "933462753506885632",
+                                    "indices": [
+                                        94,
+                                        117
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                    "url": "https://t.co/eclzzSdfOG",
+                                    "display_url": "pic.twitter.com/eclzzSdfOG",
+                                    "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                    "type": "photo",
+                                    "sizes": {
+                                        "thumb": {
+                                            "w": 150,
+                                            "h": 150,
+                                            "resize": "crop"
+                                        },
+                                        "medium": {
+                                            "w": 640,
+                                            "h": 877,
+                                            "resize": "fit"
+                                        },
+                                        "large": {
+                                            "w": 640,
+                                            "h": 877,
+                                            "resize": "fit"
+                                        },
+                                        "small": {
+                                            "w": 496,
+                                            "h": 680,
+                                            "resize": "fit"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "extended_entities": {
+                            "media": [
+                                {
+                                    "id": 933462753506885600,
+                                    "id_str": "933462753506885632",
+                                    "indices": [
+                                        94,
+                                        117
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPRTbbnWAAAn3oW.jpg",
+                                    "url": "https://t.co/eclzzSdfOG",
+                                    "display_url": "pic.twitter.com/eclzzSdfOG",
+                                    "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                    "type": "photo",
+                                    "sizes": {
+                                        "thumb": {
+                                            "w": 150,
+                                            "h": 150,
+                                            "resize": "crop"
+                                        },
+                                        "medium": {
+                                            "w": 640,
+                                            "h": 877,
+                                            "resize": "fit"
+                                        },
+                                        "large": {
+                                            "w": 640,
+                                            "h": 877,
+                                            "resize": "fit"
+                                        },
+                                        "small": {
+                                            "w": 496,
+                                            "h": 680,
+                                            "resize": "fit"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 933462753502793700,
+                                    "id_str": "933462753502793728",
+                                    "indices": [
+                                        94,
+                                        117
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/DPRTbbmXkAAwCyI.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPRTbbmXkAAwCyI.jpg",
+                                    "url": "https://t.co/eclzzSdfOG",
+                                    "display_url": "pic.twitter.com/eclzzSdfOG",
+                                    "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                    "type": "photo",
+                                    "sizes": {
+                                        "large": {
+                                            "w": 640,
+                                            "h": 861,
+                                            "resize": "fit"
+                                        },
+                                        "small": {
+                                            "w": 505,
+                                            "h": 680,
+                                            "resize": "fit"
+                                        },
+                                        "thumb": {
+                                            "w": 150,
+                                            "h": 150,
+                                            "resize": "crop"
+                                        },
+                                        "medium": {
+                                            "w": 640,
+                                            "h": 861,
+                                            "resize": "fit"
+                                        }
+                                    }
+                                },
+                                {
+                                    "id": 933462753507004400,
+                                    "id_str": "933462753507004418",
+                                    "indices": [
+                                        94,
+                                        117
+                                    ],
+                                    "media_url": "http://pbs.twimg.com/media/DPRTbbnX0AIqAJV.jpg",
+                                    "media_url_https": "https://pbs.twimg.com/media/DPRTbbnX0AIqAJV.jpg",
+                                    "url": "https://t.co/eclzzSdfOG",
+                                    "display_url": "pic.twitter.com/eclzzSdfOG",
+                                    "expanded_url": "https://twitter.com/ab_tully/status/933462800961241088/photo/1",
+                                    "type": "photo",
+                                    "sizes": {
+                                        "small": {
+                                            "w": 480,
+                                            "h": 680,
+                                            "resize": "fit"
+                                        },
+                                        "thumb": {
+                                            "w": 150,
+                                            "h": 150,
+                                            "resize": "crop"
+                                        },
+                                        "medium": {
+                                            "w": 640,
+                                            "h": 907,
+                                            "resize": "fit"
+                                        },
+                                        "large": {
+                                            "w": 640,
+                                            "h": 907,
+                                            "resize": "fit"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "source": "<a href=\"http://twitter.com/#!/download/ipad\" rel=\"nofollow\">Twitter for iPad</a>",
+                        "in_reply_to_status_id": null,
+                        "in_reply_to_status_id_str": null,
+                        "in_reply_to_user_id": null,
+                        "in_reply_to_user_id_str": null,
+                        "in_reply_to_screen_name": null,
+                        "geo": null,
+                        "coordinates": null,
+                        "place": null,
+                        "contributors": null,
+                        "is_quote_status": false,
+                        "retweet_count": 15,
+                        "favorite_count": 50,
+                        "favorited": false,
+                        "retweeted": false,
+                        "possibly_sensitive": false,
+                        "lang": "en"
+                    },
                     "is_quote_status": false,
-                    "retweet_count": 0,
-                    "favorite_count": 1,
+                    "retweet_count": 15,
+                    "favorite_count": 0,
                     "favorited": false,
                     "retweeted": false,
+                    "possibly_sensitive": false,
                     "lang": "en"
                 },
                 "contributors_enabled": false,
@@ -3421,7 +3768,7 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 220670,
+                "followers_count": 220672,
                 "friends_count": 997,
                 "listed_count": 1946,
                 "created_at": "Sat Oct 16 13:55:56 +0000 2010",
@@ -3467,8 +3814,8 @@
                     "is_quote_status": true,
                     "quoted_status_id": 932309842123022300,
                     "quoted_status_id_str": "932309842123022336",
-                    "retweet_count": 113,
-                    "favorite_count": 400,
+                    "retweet_count": 114,
+                    "favorite_count": 406,
                     "favorited": false,
                     "retweeted": false,
                     "possibly_sensitive": false,
@@ -3845,9 +4192,9 @@
                     }
                 },
                 "protected": false,
-                "followers_count": 905418,
+                "followers_count": 905419,
                 "friends_count": 513,
-                "listed_count": 833,
+                "listed_count": 834,
                 "created_at": "Sun Apr 01 20:13:22 +0000 2012",
                 "favourites_count": 3459,
                 "utc_offset": 7200,
@@ -3891,7 +4238,7 @@
                     "contributors": null,
                     "is_quote_status": false,
                     "retweet_count": 55,
-                    "favorite_count": 1135,
+                    "favorite_count": 1138,
                     "favorited": false,
                     "retweeted": false,
                     "lang": "fr"
