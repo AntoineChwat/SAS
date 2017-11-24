@@ -10,24 +10,22 @@ angular.module('Ctrl', [])
             });
 
         $scope.dataGet = function(){
-            $scope.loading = true;
-            $scope.done = false;
-            Data.getFb().then(function(data){
-                Data.getTt().then (function(data){
-					$scope.loading = false;
-	                $scope.done = true;
-				});
 
-
-            })
         }
 
         $scope.compare = function(){
-            $scope.loading = true
-            Data.compare().then(function(data) {
-                $scope.output = data.data;
-            });
-            $scope.loading = false
+			$scope.loading = true;
+			$scope.done = false;
+			Data.getFb().then(function(data){
+				Data.getTt().then (function(data){
+		            Data.compare().then(function(data) {
+						$scope.done = true;
+						$scope.loading = false;
+		                $scope.output = data.data;
+		            });
+		            $scope.loading = false;
+				});
+			});
         }
 
         $scope.setSocial = function (social) {

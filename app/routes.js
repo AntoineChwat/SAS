@@ -182,7 +182,7 @@ module.exports = function(app, passport) {
 
 
 	//DROP USER DATABASE
-	app.get('/drop/users', function(req, res) {
+	app.get('/drop', function(req, res) {
 	User.remove({}, function(err) {
 		console.log('collection removed')
 	});
