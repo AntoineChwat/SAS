@@ -21,8 +21,6 @@ def main():
 		# print('')
 	# print(fbFriends)
 
-	temp = ""
-
 	data = openFile('static/friends.json')
 	for users in data['users']:
 		for criteria in users:
@@ -30,13 +28,8 @@ def main():
 				if key == "name":
 					# print(key, 'is:', value)
 					friends.append(value)
-					temp = ''.join(e for e in value if e.isalnum())
-					temp = temp.lower()
 				if key == "screen_name":
-					tmp = ''.join(e for e in value if e.isalnum())
-					tmp = tmp.lower()
-					if temp != tmp:
-						friends.append(value)
+					friends.append(value)
 			# print('')
 	# print(friends)
 
@@ -47,13 +40,8 @@ def main():
 				if key == "name":
 					# print(key, 'is:', value)
 					friends.append(value)
-					temp = ''.join(e for e in value if e.isalnum())
-					temp = temp.lower()
 				if key == "screen_name":
-					tmp = ''.join(e for e in value if e.isalnum())
-					tmp = tmp.lower()
-					if temp != tmp:
-						friends.append(value)
+					friends.append(value)
 			# print('')
 	# print(followers)
 
@@ -83,12 +71,19 @@ def main():
 				# else:
 				# 	print('Found duplicate: ' + amigo)
 
+	newCommon= []
+
 	if numberCommon > 0:
-		print("\n Friends in common: " + str(common))
+		for i in common:
+			if i not in newCommon:
+				newCommon.append(i)
+			else:
+				numberCommon = numberCommon - 1
+		print("\n Friends in common: " + str(newCommon))
 		print("\n Number of friends in common: " + str(numberCommon))
 	else:
 		print("\n No friends in common found...")
-	file.write(str(common) + "\n")
+	file.write(str(newCommon) + "\n")
 	file.write(str(numberCommon) + "\n")
 
 	fbLocation = ""
