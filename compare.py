@@ -21,13 +21,22 @@ def main():
 		# print('')
 	# print(fbFriends)
 
+	temp = ""
+
 	data = openFile('static/friends.json')
 	for users in data['users']:
 		for criteria in users:
 			for key, value in criteria.items():
-				if key == "screen_name":
+				if key == "name":
 					# print(key, 'is:', value)
 					friends.append(value)
+					temp = ''.join(e for e in value if e.isalnum())
+					temp = temp.lower()
+				if key == "screen_name":
+					tmp = ''.join(e for e in value if e.isalnum())
+					tmp = tmp.lower()
+					if temp != tmp:
+						friends.append(value)
 			# print('')
 	# print(friends)
 
@@ -35,9 +44,16 @@ def main():
 	for users in data['users']:
 		for criteria in users:
 			for key, value in criteria.items():
-				if key == "screen_name":
+				if key == "name":
 					# print(key, 'is:', value)
-					followers.append(value)
+					friends.append(value)
+					temp = ''.join(e for e in value if e.isalnum())
+					temp = temp.lower()
+				if key == "screen_name":
+					tmp = ''.join(e for e in value if e.isalnum())
+					tmp = tmp.lower()
+					if temp != tmp:
+						friends.append(value)
 			# print('')
 	# print(followers)
 
