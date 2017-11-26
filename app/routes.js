@@ -2,22 +2,14 @@ var request = require('request-promise');
 var EventEmitter = require("events").EventEmitter
 var fs = require('fs')
 var cmd = require('node-cmd')
-var Twit = require ('twit')
 var User = require('./models/user');
+var config = require('../config/config')
 
-var T = new Twit({
-	consumer_key:         'pvQ0WbxP2ueDCe1PfnAZcTHkB',
-	consumer_secret:      'rhMdlyVvbU9M6Ychhd9h2TFxbGC9wFWPl7AoqV2XRGD4cgXPWL',
-	access_token:         '257868540-A5Db3CjPa5cOk7ylArpE7FmqZMTnHx5lCONsJHX1',
-	access_token_secret:  'cQoLqmZ7iE8boCpgaaAOdIgZoimpSpzBbUCwdi697415I'
-})
+var Twit = require ('twit')
+var T = new Twit(config.twitter)
+
 var F = require('fb')
-var FB = new F.Facebook({
-	appId:     '502558243460093',
-	appSecret: 'b06f05e1a9839e338242c4a111c53bdf',
-	accessToken: '502558243460093|0CPd0hf5xNYRPUprwyitdRMUrC4',
-})
-
+var FB = new F.Facebook(config.facebook)
 
 var fbScope = ['email', 'user_location', 'user_hometown', 'user_posts', 'user_tagged_places', 'user_friends']
 var userFieldSet = 'name, location, hometown, feed, tagged_places'
