@@ -28,7 +28,7 @@ module.exports = {
 
 };
 ```
-3. Create `config/config.js`
+4. Create `config/config.js`
 ```
 module.exports = {
 
